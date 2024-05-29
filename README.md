@@ -14,6 +14,16 @@ I/O.
 - Slide: [here](https://drive.google.com/drive/folders/183djJIkGVDYmz3njkCCW2-0ZPv032fsU?usp=sharing)(ECCS email required) 
 - Date due: ***2024/06/03*** (tentative: check [here](https://github.com/ut-syspro-admin-24/assignment-7) for the latest deadline.)
 
+## How to Build
+
+```
+$ make docker-build # Only the first time
+$ make docker-make
+$ make qemu
+```
+
+cf: https://github.com/pflab-ut/utokyo_syspro_baremetal_2023
+
 ## Notes
 
 - Make sure that codes can be ***successfully built*** by TA.
